@@ -28,9 +28,6 @@
   "scripts": {
     "test": "karma start tests/karma.conf.js --single-run"
   },
-  "dependencies": {
-    "jquery": "~2.1.3"
-  },
   "devDependencies": {
     "jasmine-core": "*",
     "karma": "*",
@@ -38,6 +35,5 @@
     "karma-jasmine": "*",
     "karma-phantomjs-launcher": "*",
     "karma-chrome-launcher": "*"
-  },
-  "types": "./types/index.d.ts"
+  }
 }
